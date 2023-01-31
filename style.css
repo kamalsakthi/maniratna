@@ -1,0 +1,81 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+h1#Heading1
+{
+    color:rgb(24,158,250);
+    background:linear-gradient(90deg, blueviolet,deeppink);
+
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: dotted;
+    
+    text-transform:uppercase;
+}
+div#Heading1
+{
+    color:white;
+    text-align:center;
+    background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:200px;
+    border:15px ridge goldenrod;
+    margin: 50px;
+    text-transform: capitalize;
+    }
+
+#Heading2
+{
+    color:aqua;
+}
+ul
+{
+    margin: 50px;
+}
+li:nth-child(even)
+{
+    background-color: azure;
+    color:gray;
+}
+li:nth-child(odd)
+{
+    background-color: antiquewhite;
+    color:black;
+}
+
+#button
+{
+display:none;
+position: relative;
+
+}
+p#top a /*nesing Tag means space ,grouping means , ctrl + K + U */
+{
+    text-decoration: none;
+    background-color: blue;
+    color:white;
+    padding:7px;
+    border-radius: 5px;
+
+}
+p#top a:hover
+{
+    color:brown;
+    font-weight: 200;
+    text-shadow : 30px;
+
+}
+Section#Section1 img
+{
+    margin:0 auto;
+    display:block;
+}
+footer
+{
+    background: linear-gradient(45deg,black,gray);
+    color:white;
+    padding: 12px;
+    box-shadow: 0 5px black;
+}
